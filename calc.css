@@ -1,0 +1,67 @@
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: brown;
+}
+body{
+    background-image:url(https://images.wondershare.com/recoverit/article/07/iphone-wallpapers-1.jpg);
+}
+.salut{
+    font-size: 60px;
+    text-align: center;
+    color: blueviolet;
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;/*indique que l'animation s'applique sur transform*/
+    transition-duration: 200ms;
+}
+.salut:hover{
+    transform: scale(1.10);
+}
+img{
+    /* display: flex; */
+    margin: 5px;
+    
+}
+input{
+    width: 150px;
+    height: 100px;
+    font-size: 70px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border-style:none;
+}
+#conteneur{
+    display: flex;
+    flex-wrap:wrap;
+}
+#myform{
+    /* margin: 2vw; */
+    margin-left: 250px;
+    margin-top: 50px;
+    border: medium solid plum;
+}
+.affichage{
+    width: 670px;
+    height: 150px;
+    text-align: center;
+    background-color: #1f80c5;
+}
+.division{
+    background-color: #cc5c;
+}
+.fois{
+    background-color: rgb(127, 255, 213);
+}
+.moins{
+    background-color: bisque;
+}
+.plus{
+    background-color:#7de;
+}
+.egal{
+    background-color: green;
+}
